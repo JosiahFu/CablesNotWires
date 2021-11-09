@@ -41,7 +41,7 @@ msg         db "============ House-DOS Help ============", 0x0A, 0x0A
             db "DIR       ECHO      EDIT      EXIT", 0x0A
             db "FILE      HELP      HEXDUMP   HIDE", 0x0A
             db "INFO      QUIT      R         RENAME", 0x0A
-            db "ROLLBACK  WRITE     SYS", 0x0A, 0x0A
+            db "ROLLBACK  WRITE     SYS       BDAY, CAKE", 0x0A, 0x0A
             db "For details on what a command does,", 0x0A
             db "Lookup the DESCRIPTION attribute:", 0x0A, 0x0A
             db "    COMMAND %D", 0x0A, 0x0A

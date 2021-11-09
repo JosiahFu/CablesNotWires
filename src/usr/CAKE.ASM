@@ -60,6 +60,6 @@ msg         db "           ~                  ~", 0x0A
             db "              `````****-----------****`````", 0x00
 
 creator     db "House-DOS Developers", 0x00
-desc        db "Show system help.", 0x00
-usage       db "HELP", 0x0A
-            db "OUT: Help contents", 0x00
+desc        db "Prints an ASCII art of a birthday cake.", 0x00
+usage       db "CAKE", 0x0A
+            db "OUT: ASCII Art", 0x00

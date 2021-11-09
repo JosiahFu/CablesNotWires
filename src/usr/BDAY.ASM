@@ -44,6 +44,6 @@ msg         db "==============================================================",
             db "===============================================================", 0x00
 
 creator     db "House-DOS Developers", 0x00
-desc        db "Show system help.", 0x00
-usage       db "HELP", 0x0A
-            db "OUT: Help contents", 0x00
+desc        db "Prints a happy birthday message ASCII art.", 0x00
+usage       db "BDAY", 0x0A
+            db "OUT: Birthday message", 0x00
